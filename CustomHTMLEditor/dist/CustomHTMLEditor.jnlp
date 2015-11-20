@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CustomHTMLEditor.jnlp">
+  <information>
+    <title>CustomHTMLEditor</title>
+    <vendor>dipu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CustomHTMLEditor.jar" size="9845" download="eager" />
+    <jar href="lib\commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib\controlsfx-8.40.9.jar" size="1016589" download="eager" />
+    <jar href="lib\openjfx-dialogs-1.0.3.jar" size="149178" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CustomHTMLEditor" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.sandsoft.components.test.CustomHTMLEditorTest"  name="CustomHTMLEditor" />
+  <update check="always"/>
+</jnlp>
