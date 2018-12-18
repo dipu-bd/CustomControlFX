@@ -50,6 +50,7 @@ public class CustomHTMLEditor extends HTMLEditor {
         mWebView = (WebView) this.lookup(WEB_VIEW);
         mTopToolBar = (ToolBar) this.lookup(TOP_TOOLBAR);
         mBottomToolBar = (ToolBar) this.lookup(BOTTOM_TOOLBAR);
+        GridPane.setVgrow(mWebView, Priority.ALWAYS);
 
         createCustomButtons();
         this.setHtmlText("<html />");
